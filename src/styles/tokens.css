@@ -1,0 +1,53 @@
+:root {
+  /* 色彩 —— 暖白 / 炭黑 / 低饱和陶土红 */
+  --color-bg: #f7f5f0;
+  --color-surface: #ffffff;
+  --color-ink: #1c1b18;
+  --color-ink-2: #6e6b64;
+  --color-ink-3: #767269;
+  --color-line: #e6e2d8;
+  --color-accent: #c0492f;
+  --color-accent-hover: #a63e27;
+  --color-accent-soft: #f4e6df;
+  --color-success: #3e6b4f;
+  --color-warn: #9a6a12;
+
+  /* 字体 —— 纯系统字体栈，零外部请求 */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", "PingFang SC",
+    "Hiragino Sans GB", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  --font-serif: Georgia, "Times New Roman", "Songti SC", "SimSun", serif;
+  --font-mono: ui-monospace, "SF Mono", "Cascadia Code", "JetBrains Mono",
+    Menlo, Consolas, monospace;
+
+  /* 字号层级 */
+  --text-xs: 0.75rem;
+  --text-sm: 0.875rem;
+  --text-base: 1rem;
+  --text-lg: 1.25rem;
+  --text-xl: 1.5rem;
+  --text-2xl: 2rem;
+  --text-hero: clamp(2.25rem, 5vw, 3.25rem);
+  --text-num: clamp(1.75rem, 4vw, 2.5rem);
+
+  /* 间距（4px 网格） */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-5: 24px;
+  --space-6: 32px;
+  --space-7: 48px;
+  --space-8: 64px;
+  --space-9: 96px;
+
+  /* 圆角 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+
+  /* 布局与其他 */
+  --max-width: 1120px;
+  --gutter: clamp(1.25rem, 5vw, 4rem);
+  --border: 1px solid var(--color-line);
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --transition-fast: 150ms var(--ease);
+}

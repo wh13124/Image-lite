@@ -1,0 +1,51 @@
+.file-summary-row {
+  display: flex;
+  align-items: flex-start;
+  gap: var(--space-4);
+}
+
+.file-summary-thumb {
+  flex-shrink: 0;
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border: var(--border);
+  border-radius: var(--radius-sm);
+  background: var(--color-bg);
+}
+
+.file-summary-meta {
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-2);
+  min-width: 0;
+}
+
+.file-summary-name {
+  font-weight: 600;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.file-summary-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--space-2);
+}
+
+.file-summary-hint {
+  margin-top: var(--space-3);
+  font-size: var(--text-sm);
+  color: var(--color-warn);
+}
+
+.file-summary-actions {
+  display: flex;
+  gap: var(--space-2);
+  margin-top: var(--space-4);
+}
+
+.file-summary-actions .btn {
+  flex: 1;
+}
